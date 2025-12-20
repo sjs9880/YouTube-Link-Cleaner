@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <style>
+        body {
+            width: 240px;
+            padding: 15px;
+            font-family: 'Segoe UI', sans-serif;
+            user-select: none;
+        }
+
+        h3 {
+            margin: 0 0 15px 0;
+            font-size: 16px;
+            color: #333;
+            border-bottom: 2px solid #f00;
+            padding-bottom: 8px;
+        }
+
+        .group {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .group-title {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .option {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        label {
+            margin-left: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            color: #444;
+        }
+
+        input[type="checkbox"] {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>YouTube Link Cleaner</h3>
+
+    <div class="group">
+        <div class="group-title">태그 제거 설정</div>
+        <div class="option">
+            <input type="checkbox" id="removeTracking" checked>
+            <label for="removeTracking">추적 코드 (si, feature)</label>
+        </div>
+        <div class="option">
+            <input type="checkbox" id="removeTime">
+            <label for="removeTime">재생 시간 (t)</label>
+        </div>
+        <div class="option">
+            <input type="checkbox" id="removePlaylist">
+            <label for="removePlaylist">플레이리스트 (list)</label>
+        </div>
+    </div>
+
+    <div class="group">
+        <div class="group-title">고급 기능</div>
+        <div class="option">
+            <input type="checkbox" id="convertShorts">
+            <label for="convertShorts">Shorts를 일반 영상으로 변환</label>
+        </div>
+        <div class="option">
+            <input type="checkbox" id="copyMarkdown">
+            <label for="copyMarkdown">제목 포함 복사 (Markdown)</label>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

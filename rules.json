@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "regexSubstitution": "\\1\\2\\3"
+            }
+        },
+        "condition": {
+            "regexFilter": "^(.*)([?&])(?:si|feature|pp|gclid)=[^&]+&(.*)$",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "regexSubstitution": "\\1"
+            }
+        },
+        "condition": {
+            "regexFilter": "^(.*)[?&](?:si|feature|pp|gclid)=[^&]+$",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    }
+]
