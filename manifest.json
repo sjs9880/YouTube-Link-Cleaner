@@ -20,8 +20,14 @@
             }
         ]
     },
+    "icons": {
+        "128": "icon/128.png"
+    },
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "icon/128.png"
+        }
     },
     "content_scripts": [
         {
