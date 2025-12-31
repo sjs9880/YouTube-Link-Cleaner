@@ -1,0 +1,32 @@
+{
+    "appName": {
+        "message": "Link Cleaner for YouTube"
+    },
+    "appDesc": {
+        "message": "유튜브 페이지 접속 시 추적 태그를 차단하고, 주소창과 공유링크 생성 시 불필요한 파라미터를 제거합니다."
+    },
+    "settingsTitle": {
+        "message": "태그 제거 설정"
+    },
+    "removeTracking": {
+        "message": "추적 코드 (si, feature)"
+    },
+    "removeTime": {
+        "message": "재생 시간 (t)"
+    },
+    "removePlaylist": {
+        "message": "플레이리스트 (list, start_radio, index)"
+    },
+    "removeLC": {
+        "message": "하이라이트 댓글 (lc)"
+    },
+    "advancedTitle": {
+        "message": "고급 기능"
+    },
+    "convertShorts": {
+        "message": "새로고침 시 Shorts를 일반 영상으로 변환"
+    },
+    "copyMarkdown": {
+        "message": "제목 포함 복사 (Markdown)"
+    }
+}

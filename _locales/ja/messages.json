@@ -1,0 +1,32 @@
+{
+    "appName": {
+        "message": "Link Cleaner for YouTube"
+    },
+    "appDesc": {
+        "message": "YouTubeページアクセス時に追跡タグをブロックし、アドレスバーや共有リンクから不要なパラメータを削除します。"
+    },
+    "settingsTitle": {
+        "message": "タグ削除設定"
+    },
+    "removeTracking": {
+        "message": "追跡コード (si, feature)"
+    },
+    "removeTime": {
+        "message": "再生位置 (t)"
+    },
+    "removePlaylist": {
+        "message": "プレイリスト (list, start_radio, index)"
+    },
+    "removeLC": {
+        "message": "ハイライトされたコメント (lc)"
+    },
+    "advancedTitle": {
+        "message": "高度な機能"
+    },
+    "convertShorts": {
+        "message": "更新時にShortsを通常動画に変換"
+    },
+    "copyMarkdown": {
+        "message": "タイトル付きコピー (Markdown)"
+    }
+}

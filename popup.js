@@ -7,8 +7,17 @@ const settingKeys = [
     'copyMarkdown'
 ];
 
-// 1. 저장된 설정 불러오기
+// 1. 저장된 설정 불러오기 및 다국어 처리
 document.addEventListener('DOMContentLoaded', () => {
+    // 다국어 처리
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        const message = chrome.i18n.getMessage(key);
+        if (message) {
+            element.textContent = message;
+        }
+    });
+
     chrome.storage.sync.get(settingKeys, (items) => {
         // 기본값 설정 (undefined일 경우의 처리)
         document.getElementById('removeTracking').checked = items.removeTracking !== false;

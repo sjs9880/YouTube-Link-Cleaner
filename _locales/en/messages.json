@@ -1,0 +1,32 @@
+{
+    "appName": {
+        "message": "Link Cleaner for YouTube"
+    },
+    "appDesc": {
+        "message": "Blocks tracking tags when visiting YouTube pages and removes unnecessary parameters from the address bar and shared links."
+    },
+    "settingsTitle": {
+        "message": "Tag Removal Settings"
+    },
+    "removeTracking": {
+        "message": "Tracking Code (si, feature)"
+    },
+    "removeTime": {
+        "message": "Playback Time (t)"
+    },
+    "removePlaylist": {
+        "message": "Playlist (list, start_radio, index)"
+    },
+    "removeLC": {
+        "message": "Highlighted Comment (lc)"
+    },
+    "advancedTitle": {
+        "message": "Advanced Features"
+    },
+    "convertShorts": {
+        "message": "Convert Shorts to Normal Video on Refresh"
+    },
+    "copyMarkdown": {
+        "message": "Copy with Title (Markdown)"
+    }
+}
